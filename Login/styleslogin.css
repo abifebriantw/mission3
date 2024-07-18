@@ -1,0 +1,238 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+header {
+  background: #FFFFF;
+  width: 1,440px;
+  height: 80px;
+  padding: 12px 120px 12px 120px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  justify: space-between;
+  opacity: 0px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: solid 1px #e1e1e1;
+
+}
+
+body {
+  margin: 0;
+  width: 1,440px;
+  height: 944px;
+  font-family:'Open Sans', poppins;
+  background-color: #FFFFF;
+  gap: 36px;
+}
+
+input {
+  width: 518px;
+  height: 48px;
+  background: hidden.png;
+  left: 50%;
+  border-radius: 6px;
+  border: solid 1px #F1F1F1;
+  outline: none;
+  border-radius: 1px;
+  border: 1px  solid black rgba(255 255 255 .2);
+}
+
+.container {
+  height: 100vh;
+}
+
+.login {
+  width: 590px;
+  height: 617px;
+  background-color: #fffff;
+  border-radius: 4px;
+  border: solid 1px #F1F1F1;
+  position: relative;
+  font-style: poppins;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 10px;
+  display: inline-block;
+  padding: 36px;
+}
+
+.akun {
+  text-align: center;
+  position: relative;
+  font-style: poppins;
+}
+
+.yuk {
+  text-align: center;
+  font-style: poppins;
+}
+
+.FP {
+  text-align: right;
+}
+
+.atau {
+  text-align: center;
+}
+
+form label{
+  display:flex;
+}
+
+.icon{
+  position:absolute;
+  right:0;
+  top:10;
+  padding:0px 40px 80px 10px;
+  justify-content:center
+  width:10%;
+  height:10%;
+  align-item:center;
+}
+
+.masuk{
+  width: 518px;
+  height: 42px;
+  background-color: #3ECF4C;
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-align: center;
+  box-align: center;
+  border: 1px  solid black rgba(255 255 255 .2)
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+.daftar {
+  width: 518px;
+  height: 42px;
+  background-color: #FFFFF;
+  color: #3ECF4C;
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+.masuk:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.daftar:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.g-sign-in-button {
+  width: 518px;
+  height: 50px;
+  background-color: #FFFFF;
+  color: #FFFFF;
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+.g-sign-in-button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.g-sign-in-button:active {
+  background-color: #3367D6;
+  transition: background-color .2s;
+}
+
+.g-sign-in-button .content-wrapper {
+  height: 100%;
+  width: 100%;
+  border: 1px solid transparent;
+}
+
+.g-sign-in-button img {
+  width: 33px;
+  height: 33px;
+}
+
+.g-sign-in-button .logo-wrapper {
+  padding: 15px;
+  background: #fff;
+  width: 48px;
+  height: 100%;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.g-sign-in-button .text-container {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: .21px;
+  font-size: 16px;
+  line-height: 48px;
+  vertical-align: top;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+}
+
+@media (max-width:576px) {
+
+  header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .login .akun{
+    font-size:24px;
+  }
+
+  .login {
+    width: 360px;
+  }
+
+  input{
+    width:280px;
+  }
+
+  .daftar{
+    width:280px;
+  }
+
+  .masuk{
+    width:280px;
+  }
+
+  .g-sign-in-button{
+  width:280px;
+}
+
+}
